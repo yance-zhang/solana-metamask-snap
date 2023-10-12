@@ -1,0 +1,45 @@
+{
+  "version": "1.0.1",
+  "description": "Protect your crypto with transaction insights and proactive security alerts.",
+  "proposedName": "Solana snap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wallet-guard/wallet-guard-snap"
+  },
+  "source": {
+    "shasum": "mv4xJVdaBEdavHcluuEkD5BzFdjT9CzyjtKFAWxP28s=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/shield.svg",
+        "packageName": "solana-snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "endowment:transaction-insight": {
+      "allowTransactionOrigin": true
+    },
+    "endowment:network-access": {},
+    "snap_notify": {},
+    "snap_manageState": {},
+    "endowment:cronjob": {
+      "jobs": [
+        {
+          "expression": "0 0 */14 * *",
+          "request": {
+            "method": "checkApprovals",
+            "params": {}
+          }
+        }
+      ]
+    }
+  },
+  "manifestVersion": "0.1"
+}

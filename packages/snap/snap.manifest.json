@@ -1,0 +1,50 @@
+{
+  "version": "0.0.1",
+  "description": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.",
+  "proposedName": "Solana Snap",
+  "source": {
+    "shasum": "ayp9Vc1Vi6Ty8aH4AC3uDumEoe+yJFBLuzXzvNScW08=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/shield.svg",
+        "packageName": "solana-snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "endowment:network-access": {},
+    "snap_notify": {},
+    "snap_manageState": {},
+    "endowment:cronjob": {
+      "jobs": [
+        {
+          "expression": "0 0 */14 * *",
+          "request": {
+            "method": "checkApprovals",
+            "params": {}
+          }
+        }
+      ]
+    },
+    "snap_getBip32Entropy": [
+      {
+        "path": [
+          "m",
+          "44'",
+          "501'",
+          "0'",
+          "0'"
+        ],
+        "curve": "ed25519"
+      }
+    ]
+  },
+  "manifestVersion": "0.1"
+}

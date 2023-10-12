@@ -8,7 +8,7 @@ An open-sourced Solana Snap that allows MetaMask users to natively interact with
 
 Please visit https://walletguard.app/snap for everything you need to get started using this Snap.
 
-All latest releases are deployed to [NPM](https://www.npmjs.com/package/wallet-guard-snap)
+All latest releases are deployed to [NPM](https://www.npmjs.com/package/solana-snap)
 
 ### Local Usage (Developer contributions welcome)
 

@@ -3,7 +3,7 @@
   "description": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.",
   "proposedName": "Solana Snap",
   "source": {
-    "shasum": "ayp9Vc1Vi6Ty8aH4AC3uDumEoe+yJFBLuzXzvNScW08=",
+    "shasum": "ZebBp4US+Z77LXJHZJKSFly5+9DQzItlBrVoy+Yd/tQ=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",

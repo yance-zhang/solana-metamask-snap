@@ -2,12 +2,16 @@
   "version": "0.0.1",
   "description": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.",
   "proposedName": "Solana Snap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yance-zhang/solana-metamask-snap"
+  },
   "source": {
-    "shasum": "ZebBp4US+Z77LXJHZJKSFly5+9DQzItlBrVoy+Yd/tQ=",
+    "shasum": "yZOp9EyuANWgLfeQy+AwBz+RGeHAKvLXfxp+FEx2ZVo=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
-        "iconPath": "images/shield.svg",
+        "iconPath": "images/logo.svg",
         "packageName": "solana-snap",
         "registry": "https://registry.npmjs.org/"
       }

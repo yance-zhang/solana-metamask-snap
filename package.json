@@ -2,8 +2,8 @@
   "name": "solana-metamask-snap",
   "version": "0.1.0",
   "private": true,
-  "description": "",
-  "author": "",
+  "description": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.",
+  "author": "Yance",
   "workspaces": [
     "packages/*"
   ],

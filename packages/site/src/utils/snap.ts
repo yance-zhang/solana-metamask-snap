@@ -1,6 +1,8 @@
+import { Buffer } from 'buffer';
 import { defaultSnapOrigin } from '../config';
 import { GetSnapsResponse, Snap } from '../types';
 
+window.Buffer = window.Buffer || Buffer;
 /**
  * Get the installed snaps in MetaMask.
  *

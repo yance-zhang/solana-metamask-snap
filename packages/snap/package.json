@@ -2,6 +2,22 @@
   "name": "solana-snap",
   "version": "0.0.1",
   "description": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.",
+  "keywords": [
+    "metamask",
+    "snap",
+    "metamask snap",
+    "ethereum",
+    "wallet",
+    "solana"
+  ],
+  "homepage": "https://solana-metamask-snap-site.vercel.app/",
+  "bugs": {
+    "url": "https://github.com/yance-zhang/solana-metamask-snap/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yance-zhang/solana-metamask-snap"
+  },
   "main": "src/index.ts",
   "files": [
     "dist/",

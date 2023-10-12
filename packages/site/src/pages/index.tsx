@@ -27,8 +27,6 @@ import {
 } from '../components';
 import { defaultSnapOrigin } from '../config';
 
-window.Buffer = window.Buffer || Buffer;
-
 const Container = styled.div`
   display: flex;
   flex-direction: column;

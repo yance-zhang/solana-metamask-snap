@@ -26,6 +26,8 @@
   },
   "dependencies": {
     "@metamask/providers": "^9.0.0",
+    "@solana/web3.js": "^1.87.1",
+    "crypto-browserify": "^3.12.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",

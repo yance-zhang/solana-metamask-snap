@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.",
   "proposedName": "Solana Snap",
   "repository": {
@@ -39,13 +39,7 @@
     },
     "snap_getBip32Entropy": [
       {
-        "path": [
-          "m",
-          "44'",
-          "501'",
-          "0'",
-          "0'"
-        ],
+        "path": ["m", "44'", "501'", "0'", "0'"],
         "curve": "ed25519"
       }
     ]

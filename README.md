@@ -1,6 +1,6 @@
-# Solana Wallet Snap
+# Solsnap
 
-The Solana Wallet Snap is a MetaMask extension that has Solana capabilities such as public key derivation, transaction signing, message signing.
+The Solsnap is a MetaMask extension that has Solana capabilities such as public key derivation, transaction signing, message signing.
 
 ## Starting the snap
 

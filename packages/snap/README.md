@@ -1,4 +1,4 @@
-# Solana Metamsk Snap
+# Solsnap
 
 An open-sourced Solana Snap that allows MetaMask users to natively interact with Solana applications.
 
@@ -6,9 +6,9 @@ An open-sourced Solana Snap that allows MetaMask users to natively interact with
 
 ### Published build _(recommended)_
 
-Please visit https://solana-metamask-snap-site.vercel.app/ for everything you need to get started using this Snap.
+Please visit https://solsnap.vercel.app/ for everything you need to get started using this Snap.
 
-All latest releases are deployed to [NPM](https://www.npmjs.com/package/solana-snap)
+All latest releases are deployed to [NPM](https://www.npmjs.com/package/metamask-solsnap)
 
 ### Local Usage (Developer contributions welcome)
 

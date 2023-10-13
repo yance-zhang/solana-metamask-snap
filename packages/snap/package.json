@@ -1,5 +1,5 @@
 {
-  "name": "solana-snap",
+  "name": "metamask-solsnap",
   "version": "0.1.1",
   "description": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.",
   "keywords": [
@@ -10,13 +10,13 @@
     "wallet",
     "solana"
   ],
-  "homepage": "https://solana-metamask-snap-site.vercel.app/",
+  "homepage": "https://solsnap.vercel.app/",
   "bugs": {
-    "url": "https://github.com/yance-zhang/solana-metamask-snap/issues"
+    "url": "https://github.com/yance-zhang/solsnap/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yance-zhang/solana-metamask-snap"
+    "url": "https://github.com/yance-zhang/solsnap"
   },
   "main": "src/index.ts",
   "files": [

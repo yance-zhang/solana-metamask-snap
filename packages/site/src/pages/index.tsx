@@ -197,7 +197,7 @@ const Index = () => {
   return (
     <Container>
       <Heading>
-        Welcome to <Span>Solana Snap</Span>
+        Welcome to <Span>SolSnap</Span>
       </Heading>
       <Subtitle>
         Get started by editing <code>src/index.ts</code>

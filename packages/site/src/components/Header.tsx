@@ -5,6 +5,7 @@ import { connectSnap, getThemePreference, getSnap } from '../utils';
 import { HeaderButtons } from './Buttons';
 import { SnapLogo } from './SnapLogo';
 import { Toggle } from './Toggle';
+import Logo from '../assets/logo.svg';
 
 const HeaderWrapper = styled.header`
   display: flex;
@@ -62,8 +63,12 @@ export const Header = ({
   return (
     <HeaderWrapper>
       <LogoWrapper>
-        <SnapLogo color={theme.colors.icon.default} size={36} />
-        <Title>Solana Snap</Title>
+        <img
+          src={Logo}
+          alt=""
+          style={{ width: 40, height: 40, borderRadius: 5 }}
+        />
+        <Title>SolSnap</Title>
       </LogoWrapper>
       <RightContainer>
         <Toggle

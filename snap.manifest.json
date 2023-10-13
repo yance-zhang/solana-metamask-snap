@@ -1,7 +1,7 @@
 {
   "version": "1.0.1",
   "description": "Protect your crypto with transaction insights and proactive security alerts.",
-  "proposedName": "Solana snap",
+  "proposedName": "SolSnap",
   "repository": {
     "type": "git",
     "url": "https://github.com/wallet-guard/wallet-guard-snap"
@@ -12,7 +12,7 @@
       "npm": {
         "filePath": "dist/bundle.js",
         "iconPath": "images/shield.svg",
-        "packageName": "solana-snap",
+        "packageName": "solsnap",
         "registry": "https://registry.npmjs.org/"
       }
     }
